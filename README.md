@@ -18,7 +18,7 @@ Commands are executed if DMX values are hold for more than 5 seconds.
 Beamer control will be startet automatically after sytem boot.
 
 ## Configuration
-The configuration stored in */opt/beamer_control/config.py*
+The configuration is stored in */opt/beamer_control/config.py*
 
 ### Address and universe
 
