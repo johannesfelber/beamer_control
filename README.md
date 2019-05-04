@@ -28,4 +28,4 @@ Per default beamer control listens on universe 1 at address 1. Update `address` 
 The serial settings can be updated in dict `serial`. The default values are tested with BenQ projectors.
 
 ### Commands
-All commands are customizable. Just update `presets` according to your needs. `xrange(n, m)` defines the dmx values for this preset, the value is a string, which is sent to the projector. The predefined values work with most BenQ projectors.
+All commands are customizable. Just update `presets` according to your needs. `xrange(n, m)` defines the DMX values for this preset, the value is a string, which is sent to the projector. The predefined values work with most BenQ projectors.
