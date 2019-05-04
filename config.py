@@ -9,7 +9,7 @@ serial = dict(
 )
 ola = dict(
     universe=1,
-    address=469
+    address=1
 )
 
 # Presets for rs232 commands
