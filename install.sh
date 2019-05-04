@@ -8,4 +8,5 @@ cp beamer.py config.py /opt/beamer_control/
 # Install Service
 sed -i '/^exit 0/i \
 \#beamer_control autostart\
+printf "Starting Beamer Control ..."\
 /usr/bin/python /opt/beamer_control/beamer.py &' /etc/rc.local
