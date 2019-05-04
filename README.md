@@ -29,3 +29,20 @@ The serial settings can be updated in dict `serial`. The default values are test
 
 ### Commands
 All commands are customizable. Just update `presets` according to your needs. `xrange(n, m)` defines the DMX values for this preset, the value is a string, which is sent to the projector. The predefined values work with most BenQ projectors.
+
+## DMX Chart
+Hold value for 5 seconds to activate function.
+
+|From|To|Function|Command|
+|---|---|---|---|
+|0|23|No Function|-|
+|24|46|Power On|\*pow=on#|
+|46|69|Power Off|\*pow=off#|
+|69,|92|Source VGA 1 (RGB)|\*sour=RGB#|
+|92,|115|Source VGA 2 (RGB)|\*sour=RGB2#|
+|115|138|Source Composite|\*sour=vid#|
+|138|161|Source S-Video|\*sour=svid#|
+|161|184|Audio Mute|\*mute=on#|
+|184|207|Audio Unmute|\*mute=off#|
+|207|230|Lampmode Normal|\*lampm=lnor#|
+|230|256|Lampmode Eco|\*lampm=eco#|
