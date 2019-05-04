@@ -1,5 +1,5 @@
 # Beamer Control
-A small python script for Raspberry Pi to control a BenQ projector via RS232 over sACN (E1.31) or Art-Net (or any other OLA input).
+A small python script for Raspberry Pi to control a projector via RS232 over sACN (E1.31) or Art-Net (or any other OLA input).
 Commands are executed if DMX values are hold for more than 5 seconds.
 
 ## Prerequisites
@@ -22,10 +22,10 @@ The configuration stored in */opt/beamer_control/config.py*
 
 ### Address and universe
 
-Per default beamer control listens on universe 1 at address 1. Update `address` and `universe` in dict `ola` according to your requirements
+Per default beamer control listens on universe 1 at address 1. Update `address` and `universe` in dict `ola` according to your requirements.
 
 ### Serial settings
-The serial settings can be updated in dict `serial`. The default values are used by BenQ projectors
+The serial settings can be updated in dict `serial`. The default values are tested with BenQ projectors.
 
 ### Commands
 All commands are customizable. Just update `presets` according to your needs. `xrange(n, m)` defines the dmx values for this preset, the value is a string, which is sent to the projector. The predefined values work with most BenQ projectors.
