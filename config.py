@@ -7,6 +7,7 @@ serial = dict(
     stopbits=serial.STOPBITS_ONE,
     bytesize=serial.EIGHTBITS
 )
+
 ola = dict(
     universe=1,
     address=1
